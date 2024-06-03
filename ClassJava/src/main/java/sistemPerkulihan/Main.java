@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author A-11
  */
-public class MainClass {
+public class Main {
     // private static DataManager dataManager;
 
     private static Scanner scanner = new Scanner(System.in);
@@ -61,7 +61,7 @@ public class MainClass {
     }
     // Methods for handling sub-menus
 private static void handlePerkuliahanMenu() {
-       while (true) {
+while (true) {
 System.out.println("\n===================================");
 System.out.println(" SISTEM INFORMASI AKADEMIK");
 System.out.println("===================================");
