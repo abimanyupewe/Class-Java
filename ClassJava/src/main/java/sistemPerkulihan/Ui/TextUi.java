@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemPerkulihan_UI;
+package sistemPerkulihan.Ui;
 
+import sistemPerkulihan_UI.*;
 import java.util.Scanner;
 
 /**

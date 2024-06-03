@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemLogic;
+package sistemPerkulihan.sistemLogic;
+
+import sistemLogic.*;
 
 /**
  *
  * @author A-11
  */
-public class Staf {
+public class Perkuliahan {
     
 }
