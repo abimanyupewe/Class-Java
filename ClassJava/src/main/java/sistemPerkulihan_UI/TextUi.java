@@ -12,8 +12,14 @@ import java.util.Scanner;
  * @author A-11
  */
 public class TextUi {
-    
+    // private static DataManager dataManager;
     private static Scanner scanner = new Scanner(System.in);
+    
+//    tidak pakai ini juga tidak apa karena sudah dibuatkan otomatis dari javanya
+    public TextUi(){
+        System.out.println("Ini Adalah konstruktor dari Text UI ");
+    }
+    
     public void run(){
         // Create DataManager instance (specify array sizes)
 //dataManager = new DataManager(100, 50, 20, 200);

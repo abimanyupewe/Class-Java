@@ -5,17 +5,18 @@
  */
 package sistemPerkulihan;
 
-import java.util.Scanner;
 import sistemPerkulihan_UI.TextUi;
+import sistemLogic.SistemPerkuliahan;
 
 /**
  *
  * @author A-11
  */
 public class Main {
-    // private static DataManager dataManager;
-
     public static void main(String[] args) {
+//        jika inisialisasi baru jangan lupa dikasi new
+        SistemPerkuliahan sistemPerkuliahan = new SistemPerkuliahan();
+        
         TextUi ui = new TextUi();
         ui.run();
     }
